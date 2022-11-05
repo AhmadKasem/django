@@ -283,6 +283,9 @@ path within it that needs protection. Example::
 
         @csrf_protect
         def protected_path(request):
+
+
+        
             do_something()
 
         if some_condition():
